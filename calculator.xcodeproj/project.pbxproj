@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		AB24CA8223DFDCBB00C7F787 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB24CA8123DFDCBB00C7F787 /* AppDelegate.swift */; };
-		AB24CA8423DFDCBB00C7F787 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB24CA8323DFDCBB00C7F787 /* SceneDelegate.swift */; };
 		AB24CA8623DFDCBB00C7F787 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB24CA8523DFDCBB00C7F787 /* ViewController.swift */; };
 		AB24CA8923DFDCBB00C7F787 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB24CA8723DFDCBB00C7F787 /* Main.storyboard */; };
 		AB24CA8B23DFDCC900C7F787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB24CA8A23DFDCC900C7F787 /* Assets.xcassets */; };
@@ -21,7 +20,6 @@
 /* Begin PBXFileReference section */
 		AB24CA7E23DFDCBA00C7F787 /* calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB24CA8123DFDCBB00C7F787 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AB24CA8323DFDCBB00C7F787 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AB24CA8523DFDCBB00C7F787 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AB24CA8823DFDCBB00C7F787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB24CA8A23DFDCC900C7F787 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,7 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				AB24CA8123DFDCBB00C7F787 /* AppDelegate.swift */,
-				AB24CA8323DFDCBB00C7F787 /* SceneDelegate.swift */,
 				AB24CA8523DFDCBB00C7F787 /* ViewController.swift */,
 				AB24CA8723DFDCBB00C7F787 /* Main.storyboard */,
 				AB24CA8A23DFDCC900C7F787 /* Assets.xcassets */,
@@ -103,7 +100,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1300;
 				ORGANIZATIONNAME = "Bechir Mihoub";
 				TargetAttributes = {
 					AB24CA7D23DFDCBA00C7F787 = {
@@ -150,7 +147,6 @@
 				AB24CA8623DFDCBB00C7F787 /* ViewController.swift in Sources */,
 				AB3A270723E2F9E300C8CD48 /* DataCollection.swift in Sources */,
 				AB24CA8223DFDCBB00C7F787 /* AppDelegate.swift in Sources */,
-				AB24CA8423DFDCBB00C7F787 /* SceneDelegate.swift in Sources */,
 				AB3A270523E2F77D00C8CD48 /* InfoAnswer.swift in Sources */,
 				AB7012FB23E67C8100837431 /* ScoreScreenVC.swift in Sources */,
 			);
@@ -204,6 +200,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -264,6 +261,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -297,6 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4HQ7QWGR5C;
 				INFOPLIST_FILE = calculator/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -315,6 +314,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4HQ7QWGR5C;
 				INFOPLIST_FILE = calculator/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
